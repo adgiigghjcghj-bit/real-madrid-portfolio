@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid C.F. - Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style> body { font-family: 'Poppins', sans-serif; } </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+
+    <nav class="bg-slate-900 border-b border-amber-500/30 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
+        <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+            <span class="text-xl font-extrabold text-amber-400 tracking-wider">REAL MADRID</span>
+            <div class="flex gap-6 font-semibold">
+                <a href="index.html" class="text-slate-300 hover:text-amber-400 transition">Home</a>
+                <a href="squad.html" class="text-slate-300 hover:text-amber-400 transition">Squad</a>
+                <a href="stadium.html" class="text-slate-300 hover:text-amber-400 transition">Stadium</a>
+                <a href="contact.html" class="text-amber-400 border-b-2 border-amber-400 pb-1">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto p-6 space-y-8">
+
+    <section class="bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 border border-amber-500/30 rounded-2xl p-8 text-center shadow-xl">
+        <h1 class="text-4xl font-extrabold text-amber-400">Get In Touch</h1>
+        <p class="text-slate-400 mt-2">Contact Real Madrid C.F. Fan Services and Administration</p>
+    </section>
+
+    <section class="bg-slate-900/80 border border-amber-500/20 rounded-2xl p-6 shadow-xl">
+        <h2 class="text-2xl font-bold text-amber-400 border-b border-amber-500/20 pb-3 mb-6">Send Us a Message</h2>
+        <form class="space-y-5">
+
+        <div>
+            <label class="block text-slate-400 text-sm font-semibold mb-1">Full Name</label>
+            <input type="text" required pattern="^[A-Z][a-zA-Z\s]{2,}$" placeholder="John Doe (First letter must be Capital)" 
+                class="peer w-full bg-slate-950 border border-slate-800 rounded-lg p-3 text-slate-100 focus:border-amber-400 focus:outline-none invalid:border-red-500 focus:invalid:border-red-500">
+            <p class="hidden peer-invalid:block text-red-400 text-xs mt-1">⚠️ .الاسم يجب ان يبدا بحرف كابيتال وألا يقل عن 3 حروف</p>
+        </div>
+
+        <div>
+            <label class="block text-slate-400 text-sm font-semibold mb-1">Fan ID / Username</label>
+            <input type="text" required pattern="^(?=.*[A-Z])(?=.*[@#*])[A-Za-z0-9@#*]{5,}$" placeholder="e.g. Real#123 (Must include Capital & @ or # or *) " 
+                class="peer w-full bg-slate-950 border border-slate-800 rounded-lg p-3 text-slate-100 focus:border-amber-400 focus:outline-none invalid:border-red-500 focus:invalid:border-red-500">
+            <p class="hidden peer-invalid:block text-red-400 text-xs mt-1">⚠️ .اسم المستخدم يجب أن يحتوي على حرف كابيتال وعلى الأقل رمزا خاضعا للمواصفات (@ أو # أو *)</p>
+        </div>
+
+        <div>
+            <label class="block text-slate-400 text-sm font-semibold mb-1">Email Address</label>
+            <input type="email" required placeholder="john@example.com" 
+                class="peer w-full bg-slate-950 border border-slate-800 rounded-lg p-3 text-slate-100 focus:border-amber-400 focus:outline-none invalid:border-red-500 focus:invalid:border-red-500">
+            <p class="hidden peer-invalid:block text-red-400 text-xs mt-1">⚠️ .يرجى إدخال بريد إلكتروني صحيح يحتوي على علامة @ واستكمال النطاق</p>
+        </div>
+
+        <div>
+            <label class="block text-slate-400 text-sm font-semibold mb-1">Message</label>
+            <textarea required rows="4" placeholder="Your inquiry here..." class="w-full bg-slate-950 border border-slate-800 rounded-lg p-3 text-slate-100 focus:border-amber-400 focus:outline-none"></textarea>
+        </div>
+
+        <button type="submit" class="bg-amber-500 hover:bg-amber-300 text-slate-950 font-bold px-6 py-3 rounded-lg transition duration-200 shadow-md">
+            Submit Message
+        </button>
+    </form>
+</section>
+
+        <section class="bg-slate-900/80 border border-amber-500/20 rounded-2xl p-6 shadow-xl">
+            <h2 class="text-2xl font-bold text-amber-400 border-b border-amber-500/20 pb-3 mb-4">Official Channels</h2>
+            <div class="grid md:grid-cols-2 gap-4 text-slate-300">
+                <p><strong class="text-amber-400">Phone:</strong> +20 010 984 359 57</p>
+                <p><strong class="text-amber-400">Email:</strong> Abdo772007@realmadrid.es</p>
+            </div>
+        </section>
+
+        <section class="bg-slate-900/80 border border-amber-500/20 rounded-2xl p-6 shadow-xl">
+            <h2 class="text-2xl font-bold text-amber-400 border-b border-amber-500/20 pb-3 mb-4">Madridista Premium</h2>
+            <p class="text-slate-300">Become an official Madridista member to gain priority ticket booking, official store discounts, and exclusive content access.</p>
+        </section>
+
+        <section class="bg-slate-900/80 border border-amber-500/20 rounded-2xl p-6 shadow-xl text-center">
+            <h2 class="text-xl font-bold text-amber-400 mb-2">Subscribe to Official Newsletter</h2>
+            <p class="text-slate-400 text-sm mb-4">Get team updates directly in your inbox.</p>
+            <div class="flex max-w-md mx-auto gap-2">
+                <input type="email" placeholder="Enter your email" class="flex-1 bg-slate-950 border border-slate-800 rounded-lg p-2.5 text-sm text-slate-100 focus:outline-none focus:border-amber-400">
+                <button type="button" class="bg-amber-500 text-slate-950 font-bold text-sm px-4 py-2.5 rounded-lg hover:bg-amber-300 transition">Subscribe</button>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
